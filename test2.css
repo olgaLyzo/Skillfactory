@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+
+body{font-family: 'Roboto', sans-serif;
+    font-weight: "normal";
+    font-style: "normal";
+    background-color: seashell;
+    margin: 0;
+    background-image: url("background.png");
+}
+
+main{
+    padding: 20px 30px;
+}
+nav{
+    padding: 20px;
+    font-family: "Roboto Light", serif;
+    background: lightsteelblue;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 3px navajowhite, -1px -1px 3px #FFFFFF;
+
+}
+
+.navPoints{
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+}
+.navPoints a{
+    margin: 50px;
+}
+
+
+.introducing-speach{
+    font-family: Amstelvar;
+    font-size: normal;
+    font-style: oblique;
+    
+}
+
+
+
+.container-of-chapters {
+    display: flex;
+    
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-flow: wrap;
+    align-items: stretch;
+    margin: 30px 0px;
+    padding: 20px;
+
+}
+
+.container-of-chapters div{
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-shrink: 5;
+
+}
+
+.container-of-chapters h3{
+    margin: 0px 0px 18px 0px;
+    padding: 0px;
+}
+
+.container-of-chapters ul{
+    margin: 0;
+    padding: 15px;
+}
+
+.container-of-chapters li{
+    margin: 0;
+    padding: 15px;
+}
+
+h1{
+    font-size: 30px;
+    color: darkblue;
+}
+
+h2{
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 110px
+}
+
+h3{
+  color: darkgreen;
+  font-size: 18px;
+}
+
+footer {
+    padding: 20px;
+    font-family: "Roboto Light", serif;
+    background: slategrey;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+    padding: 0 20px;
+    text-align: center;
+}
+
+footer ul{
+    padding: 0;
+}
